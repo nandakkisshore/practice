@@ -1,0 +1,61 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+form{
+    margin: 20px auto;
+    border: 20px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    color:royalblue;
+    font-weight: bolder;
+}
+input[type="text"],input[type="email"],input[type="submit"]{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid tan;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+input[type="submit"]{
+    background-color: gray;
+    color:wheat;
+    cursor: pointer;
+    transition: background-color 0.6s linear;
+}
+input[type="submit"]:hover{
+    background-color:tomato;
+}
+.navbar{
+    padding: 20px;
+    background-color:thistle;
+    margin-bottom: 20px;
+    color: black;
+    display: flex;
+    list-style: none;
+    border-radius:20px ;
+}
+.navbar li{
+    margin: 0 50px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+    transition: background-color 0.9s linear;
+}
+.navbar ul{
+    display: flex;
+    justify-content : space-between;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+.navbar li :hover{
+    background-color: tan;
+}
