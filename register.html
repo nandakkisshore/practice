@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+<style>
+    h1{
+      text-align: center;  
+      font-family:cursive;
+      border-bottom: 1px solid black;
+      border-width: 10%;
+    }
+    .username{
+        padding: 5px;
+        border-radius: 8px;
+        width: 40%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .user{
+        font-family:monospace;
+        font-size: 20px;
+        margin-left: 330px;
+
+    }   
+    .Register{
+        font-family:monospace;
+        font-size: 20px;
+        margin-left: 450px;
+        cursor: pointer;
+        transition: background-color 0.1s ease;
+        border-radius: 8px;
+    }
+    .Register:hover{
+        background-color:skyblue ;
+    }
+</style>
+<body>
+    <h1>User Registration</h1>
+    <form action="submit.php" method="POST">
+        <label class="user" for="Username">Username</label>
+        <input class="username" type="text" name="Username" id="username" placeholder="Enter Your Username" required><br><br>
+        <label class="user" for="Emailid">Email id</label>
+        <input class="username" type="Email" name="Email" id="Email" required placeholder="Enter Your Email Id"><br><br>
+        <label class="user" for="Password">Password</label>
+        <input class="username" type="password" name="password" id="password" placeholder="Enter Your  Password" required><br><br>
+        <input class="Register" type="submit" value="Register">
+    </form>
+</body>
+</html>
